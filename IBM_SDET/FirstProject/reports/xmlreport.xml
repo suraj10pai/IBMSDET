@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="80.937757">
+<testcase classname="Signin feature" name="Verify retail site Login page" time="80.937757">
+<system-out><![CDATA[Given User navigated to the Login page......................................passed
+And Enter Username "admin" and password "Admin@123".........................passed
+When user is navigated successfully to the  Home page.......................passed
+And Created coupons.........................................................passed
+Then validate the Coupon ,Edit  the coupon..................................passed
+And Delete Coupon...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

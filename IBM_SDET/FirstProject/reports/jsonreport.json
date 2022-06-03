@@ -1,0 +1,133 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-03T11:47:13.529Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2792749900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify retail site Login page",
+        "description": "",
+        "id": "signin-feature;verify-retail-site-login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 715308300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.afterannotation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3725879500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigated to the Login page",
+            "match": {
+              "location": "StepDefinitionclass.user_navigated_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10544104300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Username \"admin\" and password \"Admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Admin@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitionclass.enter_Username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64171500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated successfully to the  Home page",
+            "match": {
+              "location": "StepDefinitionclass.user_navigated_to_the_Homepage_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29233812500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Created coupons",
+            "match": {
+              "location": "StepDefinitionclass.couponCreation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23654954400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the Coupon ,Edit  the coupon",
+            "match": {
+              "location": "StepDefinitionclass.couponCreationValidation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10204349900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Delete Coupon",
+            "match": {
+              "location": "StepDefinitionclass.DeleteCoupon()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Signin feature",
+    "description": "",
+    "id": "signin-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Retail.feature",
+    "tags": []
+  }
+]
